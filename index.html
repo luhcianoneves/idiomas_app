@@ -61,7 +61,7 @@
                 <!-- Login/Register Tabs -->
                 <div class="flex border-b">
                     <button id="login-tab-button" class="flex-1 py-2 font-semibold text-indigo-600 border-b-2 border-indigo-600">Login</button>
-                    <button id="register-tab-button" class="flex-1 py-2 font-semibold text-slate-500">Registrar</button>
+                    <button id="register-tab-button" class="flex-1 py-2 font-semibold text-slate-500">Registar</button>
                 </div>
 
                 <!-- Login Form -->
@@ -137,7 +137,7 @@
             <main id="main-content" class="flex-1 p-4 md:p-8 bg-slate-50 overflow-y-auto" style="max-height: 100vh;">
                 <!-- 2. TELA DE ESCOLHA DE IDIOMA -->
                 <div id="language-choice-screen" class="screen">
-                    <h2 class="text-3xl font-bold mb-6">Escolha seu Idioma</h2>
+                    <h2 class="text-3xl font-bold mb-6">Escolha o seu Idioma</h2>
                     <div id="language-list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                         <!-- Languages will be injected here by JS -->
                     </div>
@@ -146,16 +146,16 @@
                 <!-- 3. TELA DE TESTE DE NIVELAMENTO -->
                 <div id="placement-test-screen" class="screen">
                     <h2 class="text-3xl font-bold mb-2">Teste de Nivelamento: <span id="test-language-name"></span></h2>
-                    <p class="text-slate-600 mb-6">Responda as questões para definirmos seu plano de estudos.</p>
+                    <p class="text-slate-600 mb-6">Responda às questões para definirmos o seu plano de estudos.</p>
                     <div id="test-container" class="bg-white p-6 rounded-lg shadow-md">
                         <div id="test-question-area">
-                            <p class="text-lg font-semibold mb-4" id="question-text">Carregando questão...</p>
+                            <p class="text-lg font-semibold mb-4" id="question-text">A carregar questão...</p>
                             <div id="question-options" class="space-y-3"></div>
                         </div>
                         <div id="test-result-area" class="hidden text-center">
                             <h3 class="text-2xl font-bold text-indigo-600">Resultado do Teste</h3>
                             <p class="text-5xl font-bold my-4" id="test-result-level">B1</p>
-                            <p class="text-slate-600" id="test-result-description">Nível Intermediário.</p>
+                            <p class="text-slate-600" id="test-result-description">Nível Intermédio.</p>
                             <button id="start-learning-from-test" class="mt-6 bg-indigo-600 text-white py-2 px-6 rounded-lg font-semibold hover:bg-indigo-700">Começar a Aprender</button>
                         </div>
                         <div class="mt-6 flex justify-between items-center">
@@ -170,16 +170,16 @@
                      <h2 class="text-3xl font-bold mb-6">Lição do Dia: <span id="daily-language-name">Italiano</span> - Dia <span id="daily-day-number">1</span></h2>
                      <div id="daily-exercise-container" class="bg-white p-6 rounded-lg shadow-md">
                         <!-- Exercise content will be loaded here -->
-                        <p>Carregando exercício...</p>
+                        <p>A carregar exercício...</p>
                      </div>
                 </div>
 
                 <!-- 5. TELA DE FLASHCARDS -->
                 <div id="flashcards-screen" class="screen">
-                    <h2 class="text-3xl font-bold mb-6">Meus Flashcards</h2>
+                    <h2 class="text-3xl font-bold mb-6">Os meus Flashcards</h2>
                     <div id="flashcards-container" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                         <!-- Flashcards will be loaded here -->
-                        <p>Nenhum flashcard salvo.</p>
+                        <p>Nenhum flashcard guardado.</p>
                     </div>
                 </div>
 
@@ -196,7 +196,7 @@
                             </div>
                         </div>
                         <div class="p-4 border-t border-slate-200 flex items-center gap-4">
-                            <input type="text" id="chat-input" placeholder="Digite sua mensagem..." class="flex-1 px-4 py-2 bg-slate-100 border border-slate-300 rounded-full focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                            <input type="text" id="chat-input" placeholder="Digite a sua mensagem..." class="flex-1 px-4 py-2 bg-slate-100 border border-slate-300 rounded-full focus:outline-none focus:ring-2 focus:ring-indigo-500">
                             <button id="chat-send-btn" class="bg-indigo-600 text-white p-3 rounded-full hover:bg-indigo-700">
                                 <i data-lucide="send"></i>
                             </button>
@@ -209,13 +209,13 @@
 
                 <!-- 7. TELA DE HISTÓRICO E EVOLUÇÃO -->
                 <div id="progress-screen" class="screen">
-                    <h2 class="text-3xl font-bold mb-6">Meu Progresso</h2>
+                    <h2 class="text-3xl font-bold mb-6">O meu Progresso</h2>
                     <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
                         <div class="lg:col-span-2 bg-white p-6 rounded-lg shadow-md">
                             <h3 class="font-semibold mb-4">Progresso nos 21 Dias</h3>
                             <!-- Placeholder for chart -->
                             <div class="h-64 bg-slate-100 rounded-md flex items-center justify-center">
-                                <p class="text-slate-500">Gráfico de progresso aparecerá aqui.</p>
+                                <p class="text-slate-500">O gráfico de progresso aparecerá aqui.</p>
                             </div>
                         </div>
                         <div class="bg-white p-6 rounded-lg shadow-md">
@@ -231,13 +231,13 @@
 
                 <!-- 8. TELA DE MULTIMÍDIA -->
                 <div id="multimedia-screen" class="screen">
-                    <h2 class="text-3xl font-bold mb-6">Recursos Multimídia</h2>
+                    <h2 class="text-3xl font-bold mb-6">Recursos Multimédia</h2>
                     <div class="space-y-8">
                         <div>
                             <h3 class="text-xl font-semibold mb-4">Prática de Listening</h3>
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                                 <div class="bg-white p-4 rounded-lg shadow-md">Diálogo: No restaurante</div>
-                                <div class="bg-white p-4 rounded-lg shadow-md">Diálogo: Comprando passagens</div>
+                                <div class="bg-white p-4 rounded-lg shadow-md">Diálogo: A comprar bilhetes</div>
                             </div>
                         </div>
                         <div>
@@ -282,8 +282,37 @@
             updateDoc
         } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js";
 
-        // --- CONFIGURAÇÃO ---
-        const firebaseConfig = {
+        // ===================================================================================
+        // GUIA DE CONFIGURAÇÃO OBRIGATÓRIA DO FIREBASE
+        // Para o aplicativo funcionar, siga estes 3 passos no seu projeto Firebase:
+        //
+        // PASSO 1: SUBSTITUA A CONFIGURAÇÃO ABAIXO
+        // Vá para o seu Console do Firebase -> Configurações do Projeto (engrenagem)
+        // -> Geral -> Seus apps -> App da Web, e copie o objeto 'firebaseConfig'.
+        // COLE ESSE OBJETO AQUI, substituindo o conteúdo de exemplo.
+        //
+        // PASSO 2: ATIVE O LOGIN POR E-MAIL/SENHA
+        // Vá para o seu Console do Firebase -> Authentication -> Sign-in method
+        // -> Clique em "E-mail/senha" e ative-o.
+        //
+        // PASSO 3: ATUALIZE AS REGRAS DO FIRESTORE
+        // Vá para o seu Console do Firebase -> Firestore Database -> Regras
+        // Apague tudo e cole o seguinte código:
+        /*
+            rules_version = '2';
+            service cloud.firestore {
+              match /databases/{database}/documents {
+                // Permite que usuários criem, leiam e atualizem os seus próprios dados
+                match /users/{userId} {
+                  allow read, update, delete: if request.auth != null && request.auth.uid == userId;
+                  allow create: if request.auth != null;
+                }
+              }
+            }
+        */
+        // ===================================================================================
+
+       const firebaseConfig = {
   apiKey: "AIzaSyDOBf1JUIvhsIrz35NNGWRyxy7-coANnrc",
   authDomain: "polyglot-21-app.firebaseapp.com",
   projectId: "polyglot-21-app",
@@ -305,7 +334,7 @@ const app = initializeApp(firebaseConfig);
         // --- LÓGICA DA API (GEMINI) ---
         // This is a mock function. In a real scenario, you would make a fetch call to the Gemini API.
         async function callGeminiAPI(prompt, context = {}) {
-            console.log("Chamando API da IA com o prompt:", prompt);
+            console.log("A chamar a API da IA com o prompt:", prompt);
             // Simulação de delay da rede
             await new Promise(resolve => setTimeout(resolve, 1000));
 
@@ -332,7 +361,7 @@ const app = initializeApp(firebaseConfig);
             if(prompt.includes("conversa")) {
                 return {
                     response: "Molto bene, grazie! E tu? Cosa hai fatto oggi?",
-                    correction: "Sua frase está perfeita!"
+                    correction: "A sua frase está perfeita!"
                 }
             }
             return { response: "Resposta simulada da IA." };
@@ -360,7 +389,7 @@ const app = initializeApp(firebaseConfig);
                     btn.classList.remove('bg-slate-100', 'text-indigo-600');
                 }
             });
-            console.log(`Navegando para: ${screenId}`);
+            console.log(`A navegar para: ${screenId}`);
         }
 
         // --- LÓGICA DE AUTENTICAÇÃO ---
@@ -370,15 +399,28 @@ const app = initializeApp(firebaseConfig);
         const loginTab = document.getElementById('login-tab-button');
         const registerTab = document.getElementById('register-tab-button');
 
+        // FUNÇÃO DE ERRO MELHORADA
         function handleAuthError(error) {
-            console.error("Authentication Error:", error);
-            if (error.code === 'auth/operation-not-allowed') {
-                authError.innerHTML = '<strong>Erro de Configuração:</strong> O login por e-mail/senha não está ativado. Por favor, ative este método no seu console do Firebase.';
-            } else if (error.code === 'auth/invalid-credential') {
-                 authError.textContent = "Email ou senha inválidos.";
-            } else {
-                authError.textContent = "Ocorreu um erro. Tente novamente.";
+            console.error("Authentication Error:", error.code, error.message);
+            let message = "Ocorreu um erro. Tente novamente."; // Mensagem padrão
+            switch (error.code) {
+                case 'auth/invalid-credential':
+                    message = "E-mail ou senha inválidos. Por favor, verifique.";
+                    break;
+                case 'auth/email-already-in-use':
+                    message = "Este endereço de e-mail já está em uso por outra conta.";
+                    break;
+                case 'auth/weak-password':
+                    message = "A senha é muito fraca. Por favor, use pelo menos 6 caracteres.";
+                    break;
+                case 'auth/invalid-email':
+                    message = "O formato do e-mail é inválido. Por favor, verifique.";
+                    break;
+                case 'auth/operation-not-allowed':
+                    message = '<strong>Erro de Configuração:</strong> O login por e-mail/senha não está ativado. Por favor, ative este método na sua consola do Firebase.';
+                    break;
             }
+            authError.innerHTML = message;
         }
 
         loginTab.addEventListener('click', () => {
@@ -402,14 +444,14 @@ const app = initializeApp(firebaseConfig);
         onAuthStateChanged(auth, async (user) => {
             if (user) {
                 currentUser = user;
-                console.log("Usuário logado:", user.uid);
+                console.log("Utilizador com sessão iniciada:", user.uid);
                 document.getElementById('user-email-display').textContent = user.email;
                 await loadUserData();
                 navigateTo('main-app');
                 navigateTo('language-choice-screen');
             } else {
                 currentUser = null;
-                console.log("Nenhum usuário logado.");
+                console.log("Nenhum utilizador com sessão iniciada.");
                 navigateTo('login-screen');
             }
         });
@@ -431,13 +473,13 @@ const app = initializeApp(firebaseConfig);
             try {
                 const userCredential = await createUserWithEmailAndPassword(auth, registerForm['register-email'].value, registerForm['register-password'].value);
                 // Create user profile in Firestore
-                const userRef = doc(db, `artifacts/${appId}/users`, userCredential.user.uid);
+                const userRef = doc(db, "users", userCredential.user.uid);
                 await setDoc(userRef, {
                     email: userCredential.user.email,
                     createdAt: new Date(),
                     languages: {}
                 });
-                console.log("Usuário criado e perfil salvo.");
+                console.log("Utilizador criado e perfil guardado.");
             } catch (error) {
                 handleAuthError(error);
             }
@@ -450,13 +492,13 @@ const app = initializeApp(firebaseConfig);
         // --- LÓGICA DO BANCO DE DADOS (FIRESTORE) ---
         async function loadUserData() {
             if (!currentUser) return;
-            const userRef = doc(db, `artifacts/${appId}/users`, currentUser.uid);
+            const userRef = doc(db, "users", currentUser.uid);
             const docSnap = await getDoc(userRef);
             if (docSnap.exists()) {
                 userData = docSnap.data();
-                console.log("Dados do usuário carregados:", userData);
+                console.log("Dados do utilizador carregados:", userData);
             } else {
-                console.log("Nenhum documento de usuário encontrado! Criando um novo...");
+                console.log("Nenhum documento de utilizador encontrado! A criar um novo...");
                  userData = {
                     email: currentUser.email,
                     createdAt: new Date(),
@@ -470,7 +512,7 @@ const app = initializeApp(firebaseConfig);
         async function updateUserLanguageData(languageId, data) {
             if (!currentUser) return;
             const existingLangData = userData.languages?.[languageId] || {};
-            const userRef = doc(db, `artifacts/${appId}/users`, currentUser.uid);
+            const userRef = doc(db, "users", currentUser.uid);
             const updatePayload = {
                 [`languages.${languageId}`]: {
                     ...existingLangData,
